@@ -14,7 +14,7 @@ if(myDiceRoll > oppDiceRoll){
     console.log("It's a tie!")
 };
 
-const emailList = ["domenicalunedilli@boolmail.com", "paolopapozzi@boolmail.com", "giacomofarchioni@boolmail.com", "stefanoninnoli@boolmail.com","minopoppo@boolmail.com", "gianandreaspirulli@boolmail.com", "annasquadrelli@boolmail.com", "annapapa@boolmail.com"]
+const emailList = ["domenicalunedilli@boolmail.com", "paolopapozzi@boolmail.com", "giacomofarchioni@boolmail.com", "stefanoninnoli@boolmail.com","minopoppo@boolmail.com", "gianandreaspirulli@boolmail.com", "annasquadrelli@boolmail.com", "annapapa@boolmail.com"];
 
 const userEmail = prompt("Type your email here.");
 
