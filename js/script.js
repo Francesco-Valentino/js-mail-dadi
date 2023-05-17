@@ -21,14 +21,14 @@ const userEmail = prompt("Type your email here.");
 let rightMail = false;
 
 for (let i = 0; i < emailList.length; i++){
-    if (userEmail.value === i){
+    if (userEmail === i){
         rightMail = true;
     }
 };
 
-if (rightMail = true){
+if (rightMail === true){
     console.log("Access complete!")
-} else {
+} else{
     console.log("Access denied!")
 };
 
