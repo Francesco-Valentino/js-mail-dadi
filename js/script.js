@@ -16,13 +16,19 @@ if(myDiceRoll > oppDiceRoll){
 
 const emailList = ["domenicalunedilli@boolmail.com", "paolopapozzi@boolmail.com", "giacomofarchioni@boolmail.com", "stefanoninnoli@boolmail.com","minopoppo@boolmail.com", "gianandreaspirulli@boolmail.com", "annasquadrelli@boolmail.com", "annapapa@boolmail.com"]
 
-const userEmail = prompt("Type your email here.")
+const userEmail = prompt("Type your email here.");
 
-for (let i =0; i < userEmail.length; i++){
-    if(userEmail.value !== i){
-        console.log("Access denied!")
-    } else{
-        console.log("Access complete!")
+let rightMail = false;
+
+for (let i = 0; i < emailList.length; i++){
+    if (userEmail.value === i){
+        rightMail = true;
     }
+};
+
+if (rightMail = true){
+    console.log("Access complete!")
+} else {
+    console.log("Access denied!")
 };
 
