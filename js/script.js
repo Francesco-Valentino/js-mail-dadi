@@ -13,3 +13,16 @@ if(myDiceRoll > oppDiceRoll){
 } else{
     console.log("It's a tie!")
 };
+
+const emailList = ["domenicalunedilli@boolmail.com", "paolopapozzi@boolmail.com", "giacomofarchioni@boolmail.com", "stefanoninnoli@boolmail.com","minopoppo@boolmail.com", "gianandreaspirulli@boolmail.com", "annasquadrelli@boolmail.com", "annapapa@boolmail.com"]
+
+const userEmail = prompt("Type your email here.")
+
+for (let i =0; i < userEmail.length; i++){
+    if(userEmail.value !== i){
+        console.log("Access denied!")
+    } else{
+        console.log("Access complete!")
+    }
+};
+
